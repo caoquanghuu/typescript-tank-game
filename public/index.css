@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#game-container {
+    background-color: aqua;
+    height: 600px;
+    width: 600px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#bullet {
+    height: 50px;
+    width: 50px;
+}
+
+
+#space-player-status {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: red;
+    height: 100px;
+    width: 100px;
+    justify-content: space-between;
+    margin-left: 50px;
+}

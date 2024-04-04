@@ -1,0 +1,10 @@
+.vscode/
+
+#ignore node modules
+node_modules*
+
+#project ignores
+dist/*
+commitlint.config.js
+package-lock.json
+yarn.lock
